@@ -7,6 +7,9 @@
               [cljs-http.client :as http]
               [{{name}}.utils :refer [guid]]))
 
+;; Lets you do (prn "stuff") to the console
+(enable-console-print!)
+
 (def app-state
   (atom {:things []}))
 

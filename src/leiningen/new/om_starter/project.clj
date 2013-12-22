@@ -42,4 +42,4 @@
                                    :preamble ["om/react.min.js"]
                                    :externs ["om/externs/react.js"]
                                    :closure-warnings
-                                   {:non-standard-jsdoc :off}}}]}))
+                                   {:non-standard-jsdoc :off}}}]})
