@@ -3,6 +3,15 @@ om-starter
 
 Leiningen template for a server-backed Om application.
 
+## Usage
+
+`lein new om-starter your-project`
+
+OR
+
+`lein dev` to run `lein cljsbuild auto dev` and `lein ring server` in
+parallel. Gotta save those terminals.
+
 ## Server
 
 `lein ring server`

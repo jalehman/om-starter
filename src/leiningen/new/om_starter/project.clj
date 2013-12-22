@@ -15,7 +15,10 @@
                  [om "0.1.0-SNAPSHOT"]]
 
   :plugins [[lein-cljsbuild "1.0.1"]
-            [lein-ring "0.8.7"]]
+            [lein-ring "0.8.7"]
+            [lein-pdo "0.1.1"]]
+
+  :aliases {"dev" ["pdo" "cljsbuild" "auto" "dev," "ring" "server"]}
 
   :ring {:handler {{name}}.core/app
          :init    {{name}}.core/init}
