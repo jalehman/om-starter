@@ -7,9 +7,7 @@ Leiningen template for a server-backed Om application.
 
 `lein new om-starter your-project`
 
-OR
-
-`lein dev` to run `lein cljsbuild auto dev` and `lein ring server` in
+Run: `lein dev` to run `lein cljsbuild auto dev` and `lein ring server` in
 parallel. Gotta save those terminals.
 
 ## Server
