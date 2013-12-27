@@ -18,7 +18,7 @@
             [lein-ring "0.8.7"]
             [lein-pdo "0.1.1"]]
 
-  :aliases {"dev" ["pdo" "cljsbuild" "auto" "dev," "ring" "server"]}
+  :aliases {"dev" ["pdo" "cljsbuild" "auto" "dev," "ring" "server-headless"]}
 
   :ring {:handler {{name}}.core/app
          :init    {{name}}.core/init}
