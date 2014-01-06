@@ -13,10 +13,10 @@
 (def app-state
   (atom {:things []}))
 
-(defn {{name}}-app [app]
+(defn {{name}}-app [app owner]
   (reify
     om/IRender
-    (render [_ owner]
+    (render [_]
       (dom/div nil
                (dom/h1 nil "{{name}} is working!")))))
 
