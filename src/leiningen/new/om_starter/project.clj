@@ -9,12 +9,13 @@
                  [compojure "1.1.6"]
                  [cheshire "5.2.0"]
                  ;; CLJS
-                 [org.clojure/clojurescript "0.0-2138"]
+                 [org.clojure/clojurescript "0.0-2173"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-                 [cljs-http "0.1.3"]
-                 [om "0.1.7"]]
+                 [cljs-http "0.1.8"]
+                 [secretary "1.0.3"]
+                 [om "0.5.2"]]
 
-  :plugins [[lein-cljsbuild "1.0.1"]
+  :plugins [[lein-cljsbuild "1.0.2"]
             [lein-ring "0.8.7"]
             [lein-pdo "0.1.1"]]
 

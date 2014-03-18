@@ -18,6 +18,6 @@
     om/IRender
     (render [_]
       (dom/div nil
-               (dom/h1 nil "{{name}} is working!")))))
+        (dom/h1 nil "{{name}} is working!")))))
 
-(om/root app-state {{name}}-app (.getElementById js/document "content"))
+(om/root {{name}}-app app-state {:target (.getElementById js/document "content")})
