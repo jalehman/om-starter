@@ -10,10 +10,10 @@
                  [cheshire "5.2.0"]
                  ;; CLJS
                  [org.clojure/clojurescript "0.0-2173"]
-                 [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
-                 [cljs-http "0.1.8"]
-                 [secretary "1.0.3"]
-                 [om "0.5.2"]]
+                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
+                 [cljs-http "0.1.9"]
+                 [secretary "1.1.0"]
+                 [om "0.5.3"]]
 
   :plugins [[lein-cljsbuild "1.0.2"]
             [lein-ring "0.8.7"]
