@@ -10,7 +10,7 @@
                  [cheshire "5.3.1"]
                  ;; CLJS
                  [org.clojure/clojurescript "0.0-2322"]
-                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
+                 [org.clojure/core.async "0.1.338.0-5c5012-alpha"]
                  [cljs-http "0.1.16"]
                  [secretary "1.2.1"]
                  [om "0.7.3"]]
