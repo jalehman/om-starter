@@ -2,20 +2,20 @@
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
 
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/tools.reader "0.8.2"]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [org.clojure/tools.reader "0.8.8"]
                  ;; CLJ
-                 [ring/ring-core "1.2.0"]
-                 [compojure "1.1.6"]
-                 [cheshire "5.2.0"]
+                 [ring/ring-core "1.3.1"]
+                 [compojure "1.1.9"]
+                 [cheshire "5.3.1"]
                  ;; CLJS
-                 [org.clojure/clojurescript "0.0-2173"]
+                 [org.clojure/clojurescript "0.0-2322"]
                  [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
-                 [cljs-http "0.1.9"]
-                 [secretary "1.1.0"]
-                 [om "0.5.3"]]
+                 [cljs-http "0.1.16"]
+                 [secretary "1.2.1"]
+                 [om "0.7.3"]]
 
-  :plugins [[lein-cljsbuild "1.0.2"]
+  :plugins [[lein-cljsbuild "1.0.3"]
             [lein-ring "0.8.7"]
             [lein-pdo "0.1.1"]]
 
